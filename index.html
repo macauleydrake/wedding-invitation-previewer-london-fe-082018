@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <script src="index.js"></script>
+    
   </head>
   
   <body>
@@ -19,41 +22,42 @@
     
   <section id="input">
     
-    <button type="button">Floral</button>
-    <button type="button">Niche</button>
-    <button type="button">Cats</button>
+    <button id="floral" type="button">Floral</button>
+    <button id="magical" type="button">Magical</button>
+    <button id="cats" type="button">Cats</button>
     
   <form>
   First name:<br>
-  <input type="text" name="firstname" value="Macauley">
+  <input type="text" id="firstnameinput" value="Macauley">
   <br><br>
   Second name:<br>
-  <input type="text" name="secondname" value="Allie">
+  <input type="text" id="secondnameinput" value="Allie">
   <br><br>
   Last Name:<br>
-  <input type="text" name="lastname" value="Drake">
+  <input type="text" id="lastnameinput" value="Drake">
   <br><br>
   Wedding Date:<br>
-  <input type="text" name="date" value="11/11/11">
+  <input type="text" id="dateinput" value="11/11/11">
   <br><br>
   Wedding Location:<br>
-  <input type="text" name="location" value="Fiji">
+  <input type="text" id="locationinput" value="Fiji">
   <br><br>
-  <input type="submit" value="Go!">
+  <input id="go" type="button" value="Go!">
 </form> 
 
 </section>
     
     <section id="background">
-      <p>You are cordially invited to the wedding of</p>
-      <h1>first name</h1>
-      <h1>&</h1>
-      <h1>second name</h1>
-      <h1>last name</h1>
+      
+      <h1 id="invite">You are cordially invited to the wedding of</h1>
+      <h1 id="firstname">first name</h1>
+      <h1 id="and">&</h1>
+      <h1 id="secondname">second name</h1>
+      <h1 id="lastname">last name</h1>
       <p>on</p>
-      <h2>date</h2>
+      <h2 id="date">date</h2>
       <p>at</p>
-      <h3>location</h3>
+      <h3 id="location">location</h3>
       
     </section>
     

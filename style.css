@@ -49,6 +49,52 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
-  
+}
+
+#invite {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:10px;
+  color:white;
+  padding:20px;
+}
+
+#firstname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:pink;
+}
+
+#secondname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:pink;
+}
+#and {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:blue;
+}
+
+#lastname {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:30px;
+  color:purple;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:10px;
+  color:white;
+}
+
+#date {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:green;
+}
+
+#location {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  color:yellow;
 }
