@@ -20,9 +20,20 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("firstname").style.fontFamily = "'Roboto Mono', monospace";
   document.getElementById("firstname").style.letterSpacing = "5px";
   document.getElementById("firstname").style.color = "red";
+  
   document.getElementById("secondname").style.fontFamily = "'Roboto Mono', monospace";
   document.getElementById("secondname").style.letterSpacing = "5px";
   document.getElementById("secondname").style.color = "red";
+  
+  document.getElementById("lastname").style.fontFamily = "'Charmonman', cursive";
+  document.getElementById("lastname").style.fontSize = "50px";
+  document.getElementById("lastname").style.color = "pink";
+  document.getElementById("lastname").style.padding = "0px";
+  document.getElementById("lastname").style.margin = "20px";
+  
+  document.getElementById("date").style.fontFamily = "'Nanum Gothic', sans-serif";
+  
+  document.getElementById("location").style.fontFamily = "'Roboto Mono', monospace";
   
    })
    
