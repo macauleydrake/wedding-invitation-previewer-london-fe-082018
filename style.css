@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background-color: #e8f0ff;
   margin:0px;
 }
 
@@ -18,6 +18,7 @@ button {
   padding:20px;
   background-color: Transparent;
   border:Transparent;
+  
 }
 
 form {
@@ -34,14 +35,14 @@ form {
 }
 
 #background {
-  background-image: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6febeaaa69fd0cab717c6bab09776051&auto=format&fit=crop&w=2466&q=80");
+
   height:500px;
   width:400px;
   background-size: cover;
-  display:inline-block;
   margin:10px;
   text-align: center;
   padding:50px;
+  display:inline-block;
 }
 
 .main {
@@ -52,49 +53,80 @@ form {
 }
 
 #invite {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:10px;
   color:white;
-  padding:20px;
+  padding:15px;
+  display:none;
 }
 
 #firstname {
   font-family: 'Josefin Sans', sans-serif;
   font-size:30px;
   color:pink;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 
 #secondname {
   font-family: 'Josefin Sans', sans-serif;
   font-size:30px;
   color:pink;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 #and {
   font-family: 'Josefin Sans', sans-serif;
   font-size:20px;
   color:blue;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 
 #lastname {
   font-family: 'Josefin Sans', sans-serif;
   font-size:30px;
   color:purple;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 
-p {
+#on {
   font-family: 'Josefin Sans', sans-serif;
   font-size:10px;
   color:white;
+  padding:0px;
+  margin:0px;
+  display:none;
+}
+
+#at {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:10px;
+  color:white;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 
 #date {
   font-family: 'Josefin Sans', sans-serif;
   font-size:20px;
   color:green;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
 
 #location {
   font-family: 'Josefin Sans', sans-serif;
   font-size:20px;
   color:yellow;
+  padding:0px;
+  margin:0px;
+  display:none;
 }
