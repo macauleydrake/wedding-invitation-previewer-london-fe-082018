@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("lastname").style.color = "#ffe8fd";
   document.getElementById("lastname").style.fontSize = "90px";
   document.getElementById("lastname").style.padding = "30px";
-  document.getElementById("lastname").style.font-size-adjust = ".5";
+  
   
   document.getElementById("and").style.display = "block";
   document.getElementById("and").style.lineHeight = "normal"
