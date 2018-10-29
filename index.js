@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     const magical = document.getElementById('magical')
    magical.addEventListener('click', function(event) {
   document.getElementById("background").style.backgroundImage = "url(https://images.unsplash.com/photo-1527190997915-67ce3b53cc58?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b3bf88a842b778b89ca52af5c096649&auto=format&fit=crop&w=668&q=80)";
+  document.getElementById("invite").style.lineHeight = "normal"
   document.getElementById("invite").style.display = "block";
   document.getElementById("invite").style.textAlign = "center";
   document.getElementById("invite").style.fontFamily = "'Arvo', serif";
@@ -101,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   
   document.getElementById("firstname").style.display = "block";
   document.getElementById("firstname").style.textAlign = "left";
+  document.getElementById("firstname").style.lineHeight = "normal"
   document.getElementById("firstname").style.fontFamily = "'Cutive Mono', monospace";
   document.getElementById("firstname").style.letterSpacing = "10px";
   document.getElementById("firstname").style.color = "#fcf0d9";
@@ -108,6 +110,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("firstname").style.padding = "0px";
   
   document.getElementById("secondname").style.display = "block";
+  document.getElementById("secondname").style.lineHeight = "normal"
   document.getElementById("secondname").style.textAlign = "left";
   document.getElementById("secondname").style.fontFamily = "'Cutive Mono', monospace";
   document.getElementById("secondname").style.letterSpacing = "10px";
@@ -116,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("secondname").style.padding = "0px";
   
   document.getElementById("lastname").style.display = "block";
-  document.getElementById("lastname").style.display = "block";
+  document.getElementById("lastname").style.lineHeight = "normal"
   document.getElementById("lastname").style.fontFamily = "'Josefin Slab', serif";
   document.getElementById("lastname").style.letterSpacing = "18px";
   document.getElementById("lastname").style.color = "#ffe8fd";
@@ -124,6 +127,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("lastname").style.padding = "30px";
   
   document.getElementById("and").style.display = "block";
+  document.getElementById("and").style.lineHeight = "normal"
   document.getElementById("and").style.textAlign = "left";
   document.getElementById("and").style.textAlign = "left";
   document.getElementById("and").style.padding = "2px";
@@ -132,6 +136,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("and").style.color = "#9fb6c4";
   
   document.getElementById("on").style.display = "block";
+  document.getElementById("on").style.lineHeight = "normal"
   document.getElementById("on").style.textAlign = "left";
   document.getElementById("on").style.fontFamily = "'Arvo', serif";
   document.getElementById("on").style.letterSpacing = "3px";
@@ -140,6 +145,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("on").style.color = "#9fb6c4";
   
   document.getElementById("at").style.display = "block";
+  document.getElementById("at").style.lineHeight = "normal"
   document.getElementById("at").style.textAlign = "left";
   document.getElementById("at").style.fontFamily = "'Arvo', serif";
   document.getElementById("at").style.letterSpacing = "3px";
@@ -148,6 +154,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("at").style.color = "#9fb6c4";
   
   document.getElementById("date").style.display = "block";
+  document.getElementById("date").style.lineHeight = "normal"
   document.getElementById("date").style.textAlign = "left";
   document.getElementById("date").style.fontFamily = "'Josefin Slab', serif";
   document.getElementById("date").style.letterSpacing = "10px";
@@ -156,6 +163,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   document.getElementById("date").style.padding = "5px";
   
   document.getElementById("location").style.display = "block";
+  document.getElementById("location").style.lineHeight = "normal"
   document.getElementById("location").style.textAlign = "left";
   document.getElementById("location").style.fontFamily = "'Josefin Slab', serif";
   document.getElementById("location").style.letterSpacing = "10px";
